@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors');
 require('dotenv').config();
 const app = express();
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const port = process.env.PORT || 3000;
 
 // middleware
@@ -32,17 +32,34 @@ async function run() {
     const db = client.db('food_db');
     const reviewCollection = db.collection('review');
 
+    // all review
     app.get('/review', async (req, res) => {
-      const cursor = reviewCollection.find();
+      const cursor = reviewCollection.find().sort({ review_date: "desc" });
       const result = await cursor.toArray();
       res.send(result)
     })
+    // leatest review
+    app.get('/featuredReview', async (req, res) => {
+      const result = await reviewCollection.find().sort({ rating: -1 }).limit(6).toArray();
+      res.send(result);
+    })
+
+    // review detailes by id
+    app.get('/review/:id', async (req, res) => {
+      const { id } = req.params;
+      const objectId = new ObjectId(id);
+      const result = await reviewCollection.findOne({ _id: objectId })
+      res.send(result)
+    })
+
 
     app.post('/review', async (req, res) => {
       const newReview = req.body;
       const result = await reviewCollection.insertOne(newReview);
       res.send(result)
     })
+
+
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
