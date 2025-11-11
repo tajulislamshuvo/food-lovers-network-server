@@ -1,0 +1,134 @@
+[
+  {
+    "photo": "https://i.ibb.co.com/5xzdtPsd/Hyderabadi-chicken-Biryani.jpg",
+    "food_name": "Hyderabadi Chicken Biryani",
+    "restaurant_name": "Spice Route",
+    "restaurant_location": "Dhanmondi, Dhaka",
+    "reviewer_name": "Aisha Rahman",
+    "rating": 5,
+    "review_text": "Perfectly cooked basmati rice with rich flavor and juicy chicken. One of the best biryanis I’ve ever had!",
+    "email": "aisha.rahman@example.com",
+    "review_date": "2025-10-25T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/mFFYVpc5/burger.jpg",
+    "food_name": "Beef Smash Burger",
+    "restaurant_name": "Burger Hub",
+    "restaurant_location": "Banani, Dhaka",
+    "reviewer_name": "Rafi Ahmed",
+    "rating": 5,
+    "review_text": "The patty was juicy, cheese melted perfectly, and the bun was soft. Absolutely loved it!",
+    "email": "rafi.ahmed@example.com",
+    "review_date": "2025-09-14T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/LzWjhKdJ/chicken-momo.webp",
+    "food_name": "Steamed Chicken Momos",
+    "restaurant_name": "Himalayan Taste",
+    "restaurant_location": "Chattogram City",
+    "reviewer_name": "Tanisha Chowdhury",
+    "rating": 4,
+    "review_text": "Tasty momos with spicy sauce. Could use a bit more filling, but still delicious!",
+    "email": "tanisha.c@example.com",
+    "review_date": "2025-09-20T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/qLCJDcht/pasta.jpg",
+    "food_name": "Creamy Alfredo Pasta",
+    "restaurant_name": "Cafe Roma",
+    "restaurant_location": "Gulshan, Dhaka",
+    "reviewer_name": "Arif Hossain",
+    "rating": 5,
+    "review_text": "So creamy and flavorful! The portion was generous, and the sauce was perfectly balanced.",
+    "email": "arif.hossain@example.com",
+    "review_date": "2025-08-30T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/hJQhm4r3/pizza.webp",
+    "food_name": "Margherita Pizza",
+    "restaurant_name": "Pizzeria Napoli",
+    "restaurant_location": "Sylhet City",
+    "reviewer_name": "Maya Sultana",
+    "rating": 3,
+    "review_text": "Nice cheese but crust was a bit too thick for my taste. Still good for a quick bite.",
+    "email": "maya.sultana@example.com",
+    "review_date": "2025-09-05T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/r2dLmVDb/Masala-Chai.jpg",
+    "food_name": "Masala Chai",
+    "restaurant_name": "Roadside Chaa Ghor",
+    "restaurant_location": "Mirpur, Dhaka",
+    "reviewer_name": "Nayeem Islam",
+    "rating": 5,
+    "review_text": "Perfectly brewed chai with rich aroma. Reminded me of old Dhaka evenings.",
+    "email": "nayeem.islam@example.com",
+    "review_date": "2025-10-10T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/9kfQWdkF/fuchka.jpg",
+    "food_name": "Fuchka (Pani Puri)",
+    "restaurant_name": "Street Bite",
+    "restaurant_location": "Mohammadpur, Dhaka",
+    "reviewer_name": "Sadia Kabir",
+    "rating": 5,
+    "review_text": "Crispy, tangy, spicy — everything a perfect fuchka should be! I could eat a dozen!",
+    "email": "sadia.kabir@example.com",
+    "review_date": "2025-09-28T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/NnHt3BV5/chicken-shawarma.jpg",
+    "food_name": "Chicken Shawarma",
+    "restaurant_name": "Middle East Grill",
+    "restaurant_location": "Uttara, Dhaka",
+    "reviewer_name": "Zarif Mahmud",
+    "rating": 4,
+    "review_text": "Tender chicken and creamy garlic sauce. Would love a bit more veggies though.",
+    "email": "zarif.mahmud@example.com",
+    "review_date": "2025-09-09T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/tfDYjjv/spicy-hilsa-curry.jpg",
+    "food_name": "Hilsa Fish Curry",
+    "restaurant_name": "Taste of Bengal",
+    "restaurant_location": "Khulna City",
+    "reviewer_name": "Sumaiya Rahim",
+    "rating": 5,
+    "review_text": "Authentic Bengali flavor! The mustard sauce was spot on. Will definitely visit again.",
+    "email": "sumaiya.rahim@example.com",
+    "review_date": "2025-10-02T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/WNcVZBtw/Noodles.jpg",
+    "food_name": "Stir-Fried Noodles",
+    "restaurant_name": "Asian Fusion",
+    "restaurant_location": "Rajshahi City",
+    "reviewer_name": "Imran Khan",
+    "rating": 4,
+    "review_text": "Good flavor and texture, though slightly oily. Loved the veggies mix.",
+    "email": "imran.khan@example.com",
+    "review_date": "2025-08-21T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/1YjySWBL/salmon-rolls.jpg",
+    "food_name": "Salmon Sushi Roll",
+    "restaurant_name": "Tokyo Bites",
+    "restaurant_location": "Banani, Dhaka",
+    "reviewer_name": "Nabila Hasan",
+    "rating": 5,
+    "review_text": "Fresh salmon, perfect rice texture. Tastes like authentic Japanese sushi!",
+    "email": "nabila.hasan@example.com",
+    "review_date": "2025-09-25T12:00:00Z"
+  },
+  {
+    "photo": "https://i.ibb.co.com/tMXF7RdW/ice-cream.jpg",
+    "food_name": "Chocolate Fudge Ice Cream",
+    "restaurant_name": "Cool Treats",
+    "restaurant_location": "Barishal City",
+    "reviewer_name": "Tahmid Rahman",
+    "rating": 3,
+    "review_text": "Nice chocolate flavor but slightly too sweet for my liking.",
+    "email": "tahmid.rahman@example.com",
+    "review_date": "2025-08-18T12:00:00Z"
+  }
+]
