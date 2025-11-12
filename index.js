@@ -53,13 +53,24 @@ async function run() {
     })
 
 
+    app.get("/my-review", async (req, res) => {
+      const email = req.query.email
+      const result = await reviewCollection.find({ email: email }).toArray()
+      res.send(result)
+    })
+
     app.post('/review', async (req, res) => {
       const newReview = req.body;
       const result = await reviewCollection.insertOne(newReview);
       res.send(result)
     })
 
-
+    // review search api
+    app.get('/search', async (req, res) => {
+      const search_text = req.query.search;
+      const result = await reviewCollection.find({ food_name: { $regex: search_text, $options: "i" } }).toArray();
+      res.send(result)
+    })
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
