@@ -59,6 +59,21 @@ async function run() {
       res.send(result)
     })
 
+    // edit api
+    app.put("/review/:id", async (req, res) => {
+      const { id } = req.params;
+      const data = req.body;
+      const objectId = new ObjectId(id);
+      const filter = { _id: objectId };
+      const update = {
+        $set: data,
+      };
+
+      const result = await reviewCollection.updateOne(filter, update);
+
+      res.send(result);
+    });
+
     app.post('/review', async (req, res) => {
       const newReview = req.body;
       const result = await reviewCollection.insertOne(newReview);
