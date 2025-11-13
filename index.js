@@ -96,7 +96,19 @@ async function run() {
       res.send(result);
     })
 
+    // favourite related api
+    app.post('/favourites', async (req, res) => {
+      const favourite = req.body;
+      const result = await favouriteCollections.insertOne(favourite);
+      res.send(result);
+    })
 
+    // get Favourite api
+    app.get('/favourites/:email', async (req, res) => {
+      const email = req.params.email;
+      const result = await favouriteCollections.find({ email: email }).toArray();
+      res.send(result);
+    })
 
 
     // Send a ping to confirm a successful connection
