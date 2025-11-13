@@ -31,6 +31,7 @@ async function run() {
     await client.connect();
     const db = client.db('food_db');
     const reviewCollection = db.collection('review');
+    const favouriteCollections = db.collection('favourite');
 
     // all review
     app.get('/review', async (req, res) => {
@@ -94,6 +95,7 @@ async function run() {
       const result = await reviewCollection.deleteOne(query);
       res.send(result);
     })
+
 
 
 
